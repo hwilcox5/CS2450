@@ -1,0 +1,36 @@
+/*background colors*/
+.bg-blue {
+	background-color: #5f85ff;
+}
+
+.bg-white {
+	background-color: #efefef;
+}
+
+/*Full Page Style*/
+.fullWidth {
+	max-width: 100%;
+}
+
+.fullHeight {
+	height: 100vh;
+}
+
+/*Centering Things*/
+.vhCenter {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*Custom Height Styling*/
+.h50 {
+	max-height: 35%;
+	width: auto;
+}
+
+/*Custom Text Styling*/
+.temp {
+	font-size: 10vw; /*based on viewport height*/
+}
